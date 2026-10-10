@@ -1,0 +1,162 @@
+name: MuseScore Export
+
+on:
+  push:
+    branches: [ main ]
+    tags:
+      - "v*"
+    paths:
+      - "**.mscx"
+      - ".github/workflows/musescore-export.yml"
+  workflow_dispatch:
+    inputs:
+      release_tag:
+        description: "Existing tag to publish, e.g. v1.0.0"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+env:
+  MUSESCORE_VERSION: "4.6.5"
+  MUSESCORE_BUILD: "253511702"
+
+jobs:
+  export:
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Cache MuseScore AppImage extraction
+        id: cache-musescore
+        uses: actions/cache@v4
+        with:
+          path: squashfs-root
+          key: musescore-${{ env.MUSESCORE_VERSION }}-${{ env.MUSESCORE_BUILD }}-appimage
+
+      - name: Install dependencies and fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            xvfb dbus wget fontconfig \
+            libnss3 libasound2 libxkbcommon-x11-0 \
+            libegl1 libopengl0 libjack0 fonts-noto-cjk
+
+          sudo mkdir -p /usr/local/share/fonts/klee-one
+
+          sudo wget --tries=5 --waitretry=5 --retry-connrefused --timeout=30 \
+            -O /usr/local/share/fonts/klee-one/KleeOne-Regular.ttf \
+            https://raw.githubusercontent.com/google/fonts/main/ofl/kleeone/KleeOne-Regular.ttf
+
+          sudo wget --tries=5 --waitretry=5 --retry-connrefused --timeout=30 \
+            -O /usr/local/share/fonts/klee-one/KleeOne-SemiBold.ttf \
+            https://raw.githubusercontent.com/google/fonts/main/ofl/kleeone/KleeOne-SemiBold.ttf
+
+          sudo fc-cache -fv
+          fc-list | grep -i "Klee" || true
+          fc-match "Klee One"
+
+      - name: Download MuseScore Studio
+        if: steps.cache-musescore.outputs.cache-hit != 'true'
+        run: |
+          wget --tries=5 --waitretry=5 --retry-connrefused --timeout=60 \
+            -O MuseScore.AppImage \
+            "https://github.com/musescore/MuseScore/releases/download/v${MUSESCORE_VERSION}/MuseScore-Studio-${MUSESCORE_VERSION}.${MUSESCORE_BUILD}-x86_64.AppImage"
+
+          chmod +x MuseScore.AppImage
+          ./MuseScore.AppImage --appimage-extract
+
+      - name: Show MuseScore version
+        run: |
+          dbus-run-session xvfb-run -a -- ./squashfs-root/AppRun --version
+
+      - name: Export all MSCX files
+        run: |
+          mkdir -p exports logs muhome
+          : > export-failures.txt
+
+          export HOME="$PWD/muhome"
+          export QT_ACCESSIBILITY=0
+          export XDG_RUNTIME_DIR="$RUNNER_TEMP/runtime"
+          mkdir -p "$XDG_RUNTIME_DIR"
+          chmod 700 "$XDG_RUNTIME_DIR"
+
+          shopt -s globstar nullglob
+          files=(**/*.mscx)
+
+          if [ ${#files[@]} -eq 0 ]; then
+            echo "No .mscx files found."
+            exit 1
+          fi
+
+          for file in "${files[@]}"; do
+            case "$file" in
+              squashfs-root/*|exports/*|muhome/*|logs/*)
+                continue
+                ;;
+            esac
+
+            base="${file%.mscx}"
+            safe="${base//\//__}"
+
+            pdf="exports/${safe}.pdf"
+            mp3="exports/${safe}.mp3"
+
+            echo "Exporting: $file"
+
+            echo "PDF..."
+            if ! dbus-run-session xvfb-run -a -- ./squashfs-root/AppRun \
+              -F -f \
+              -o "$pdf" \
+              "$file" \
+              > "logs/${safe}.pdf.log" 2>&1; then
+              echo "$file -> PDF failed" | tee -a export-failures.txt
+              cat "logs/${safe}.pdf.log"
+            fi
+
+            echo "MP3..."
+            if ! dbus-run-session xvfb-run -a -- ./squashfs-root/AppRun \
+              -F -f \
+              --sound-profile "MuseScore Basic" \
+              -o "$mp3" \
+              "$file" \
+              > "logs/${safe}.mp3.log" 2>&1; then
+              echo "$file -> MP3 failed" | tee -a export-failures.txt
+              cat "logs/${safe}.mp3.log"
+            fi
+
+            [ -s "$pdf" ] || echo "$file -> PDF missing or empty" | tee -a export-failures.txt
+            [ -s "$mp3" ] || echo "$file -> MP3 missing or empty" | tee -a export-failures.txt
+          done
+
+          echo "Generated files:"
+          find exports -type f -print || true
+
+          if [ -s export-failures.txt ]; then
+            echo
+            echo "Failures:"
+            cat export-failures.txt
+            exit 1
+          fi
+
+      - name: Upload exported files
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: musescore-exports
+          path: |
+            exports/
+            logs/
+            export-failures.txt
+
+      - name: Create GitHub Release
+        if: startsWith(github.ref, 'refs/tags/v') || inputs.release_tag != ''
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ inputs.release_tag || github.ref_name }}
+          files: |
+            exports/*.pdf
+            exports/*.mp3
