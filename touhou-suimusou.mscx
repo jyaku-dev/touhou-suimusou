@@ -3674,6 +3674,11 @@
           <Chord>
             <eid>yq8GG5ub9OH_37lFyR5LieP</eid>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articTenutoBelow</subtype>
+              <eid>26gV5O0uL2F_BCmBQSsUnZH</eid>
+              <offset x="0.0373428" y="-0.0373387"/>
+              </Articulation>
             <Note>
               <eid>jVc/Vb7Rym_+eVq6zB6CnM</eid>
               <pitch>44</pitch>
@@ -3700,6 +3705,11 @@
           <Chord>
             <eid>+ExR4ZI9BlB_3/q1y+ArAzC</eid>
             <durationType>half</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              <eid>lNo2ELh+EBI_5cDbc+yCvYI</eid>
+              <offset x="0" y="6.57234"/>
+              </Articulation>
             <Note>
               <eid>R55x1IvwpLL_LXEPxHwxHBF</eid>
               <pitch>44</pitch>
@@ -3733,8 +3743,7 @@
             </Chord>
           <Harmony>
             <harmonyInfo>
-              <name>7</name>
-              <root>21</root>
+              <root>19</root>
               <bass>22</bass>
               </harmonyInfo>
             <eid>p+krpqW62+_gXU4RTOOvbP</eid>
@@ -3742,6 +3751,11 @@
           <Chord>
             <eid>AAkTs68sOxN_oH7UmkIaVBJ</eid>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              <eid>arjV53B9jnD_0z9dYG3rz6N</eid>
+              <offset x="0" y="6.57234"/>
+              </Articulation>
             <Note>
               <eid>KHdz+/q0tjC_X101Uqk8aJD</eid>
               <pitch>44</pitch>
@@ -3750,8 +3764,8 @@
               </Note>
             <Note>
               <eid>jc6SZPlzhzD_VLYZSUVhOnM</eid>
-              <pitch>61</pitch>
-              <tpc>21</tpc>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
               </Note>
             </Chord>
           </voice>
@@ -3841,6 +3855,11 @@
           <Chord>
             <eid>nPu2v+ZnoRK_dGszo5c0ipP</eid>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articTenutoBelow</subtype>
+              <eid>jBgSVB86OdK_s2y+zy6QmrO</eid>
+              <offset x="0.0373428" y="-0.0373387"/>
+              </Articulation>
             <Note>
               <eid>EbD87M2Zq/G_shr4oonQofE</eid>
               <pitch>44</pitch>
@@ -3888,6 +3907,11 @@
           <Chord>
             <eid>Ft7ZS3cPS6C_kXimYHfNkKM</eid>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articTenutoBelow</subtype>
+              <eid>9JKKWc5NOjE_lVu+D83f5mE</eid>
+              <offset x="0.0373428" y="-0.0373387"/>
+              </Articulation>
             <Note>
               <eid>TjOcZNGFnM_mtm7ZXhbkAB</eid>
               <pitch>44</pitch>
@@ -3914,6 +3938,11 @@
           <Chord>
             <eid>uYwdKC3BlJJ_S0K0iBnY0MF</eid>
             <durationType>half</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              <eid>t3M3hWAgH9L_UK7iEmhyMiH</eid>
+              <offset x="0" y="6.57234"/>
+              </Articulation>
             <Note>
               <eid>3NVlo51vZFD_ubkGBJgg7TF</eid>
               <pitch>44</pitch>
@@ -3958,6 +3987,11 @@
           <Chord>
             <eid>fhmyXV0x4YM_Q242MLOmFzE</eid>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              <eid>UH2YQ2w5BkC_65DAfyjvSKB</eid>
+              <offset x="0.0522074" y="8.08636"/>
+              </Articulation>
             <Note>
               <eid>ttcs69/vp6M_zPTw3pxgsdL</eid>
               <Accidental>
@@ -3987,7 +4021,12 @@
             </Harmony>
           <Chord>
             <eid>+WaV2LJ/yML_Pu+G6yeLDHK</eid>
-            <durationType>half</durationType>
+            <durationType>whole</durationType>
+            <Articulation>
+              <subtype>articTenutoBelow</subtype>
+              <eid>MSXekNSUoRK_BgAXd+x0r4N</eid>
+              <offset x="0" y="0.177031"/>
+              </Articulation>
             <Note>
               <eid>dUtP7jZgRxK_K+EEagFe3wK</eid>
               <pitch>42</pitch>
@@ -4000,28 +4039,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyInfo>
-              <name>7</name>
-              <root>22</root>
-              </harmonyInfo>
-            <eid>P9QR5I1+xTN_nRpE5GSSEbJ</eid>
-            </Harmony>
-          <Chord>
-            <eid>Pb2XRizW6lN_PLj0HFLr4AF</eid>
-            <durationType>half</durationType>
-            <Note>
-              <eid>UuMs3FLXv6N_pBMI5jJcHbB</eid>
-              <pitch>44</pitch>
-              <tpc>22</tpc>
-              <velocity>60</velocity>
-              </Note>
-            <Note>
-              <eid>TWb1wfhkdbE_PuZCk4okbDI</eid>
-              <pitch>56</pitch>
-              <tpc>22</tpc>
-              </Note>
-            </Chord>
           </voice>
         </Measure>
       <Measure>
@@ -4030,7 +4047,6 @@
             <harmonyInfo>
               <name>m</name>
               <root>21</root>
-              <bass>25</bass>
               </harmonyInfo>
             <eid>OLJB2UFMbzC_XubzOCxJhRM</eid>
             </Harmony>
@@ -4039,8 +4055,8 @@
             <durationType>half</durationType>
             <Note>
               <eid>ggkvvQL7R4_JVcjlWqx+sI</eid>
-              <pitch>40</pitch>
-              <tpc>18</tpc>
+              <pitch>49</pitch>
+              <tpc>21</tpc>
               <velocity>60</velocity>
               </Note>
             <Note>
