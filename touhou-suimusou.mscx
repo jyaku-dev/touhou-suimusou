@@ -3642,246 +3642,45 @@
             <eid>Lm0G/cZ3DsJ_dUG4bssV64K</eid>
             <concertKey>4</concertKey>
             </KeySig>
-          <Dynamic>
-            <subtype>p</subtype>
-            <velocity>49</velocity>
-            <eid>c6rx1/aroZK_/AO/9lQ7dvC</eid>
-            </Dynamic>
+          <Harmony>
+            <harmonyInfo>
+              <root>17</root>
+              </harmonyInfo>
+            <eid>7uU1B/fqsoF_j8zWmp/YBWE</eid>
+            </Harmony>
           <Chord>
-            <eid>kJkAkeTT2iE_QQu80/BBqXE</eid>
-            <durationType>quarter</durationType>
+            <eid>R6rBUOzeO7B_yPCHdGw7m+</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
             <Note>
-              <eid>MMpp0DYW99M_titz8D9J1GM</eid>
+              <eid>GGcNJBZ1QSE_VJSfebMY8GP</eid>
               <pitch>45</pitch>
               <tpc>17</tpc>
-              <velocity>60</velocity>
               </Note>
-            </Chord>
-          <Harmony>
-            <harmonyInfo>
-              <root>17</root>
-              </harmonyInfo>
-            <eid>vDechOlLPSL_sZoKe380bdJ</eid>
-            <harmonyDuration>2</harmonyDuration>
-            </Harmony>
-          <Chord>
-            <eid>F48b8skih/H_Eop4EvJBhmG</eid>
-            <durationType>quarter</durationType>
             <Note>
-              <eid>kHVDBe6BDXB_AtNiRnVWneB</eid>
+              <eid>72P7q27dX1I_A+QfkmEIsEE</eid>
               <pitch>57</pitch>
               <tpc>17</tpc>
               <velocity>60</velocity>
               </Note>
             </Chord>
-          <Dynamic>
-            <subtype>p</subtype>
-            <velocity>49</velocity>
-            <eid>lepUfXUrOrI_4FszK1yhsHG</eid>
-            </Dynamic>
-          <Chord>
-            <eid>Dx4r0FlKhpF_ZiPiGvdveJI</eid>
-            <durationType>quarter</durationType>
-            <Note>
-              <eid>MS4zP6qnlfD_4zjMnzXdnIE</eid>
-              <pitch>45</pitch>
-              <tpc>17</tpc>
-              <velocity>60</velocity>
-              </Note>
-            </Chord>
           <Harmony>
             <harmonyInfo>
-              <root>17</root>
-              </harmonyInfo>
-            <eid>7tJuI7abGrC_+DBtZCqpJfB</eid>
-            <harmonyDuration>2</harmonyDuration>
-            </Harmony>
-          <Chord>
-            <eid>ctpfcHcPP6J_BrZVJZTVHmG</eid>
-            <durationType>quarter</durationType>
-            <Note>
-              <eid>1NE+OW/v4YE_2CIzwLBvh0I</eid>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <velocity>60</velocity>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <eid>Bbs4YddtgdI_N7sMHJ5nHgE</eid>
-            <durationType>quarter</durationType>
-            <Note>
-              <eid>D8c5Pi9r9yJ_+tMBU2oh/kO</eid>
-              <pitch>44</pitch>
-              <tpc>22</tpc>
-              <velocity>60</velocity>
-              </Note>
-            </Chord>
-          <Harmony>
-            <harmonyInfo>
-              <root>19</root>
-              <bass>22</bass>
-              </harmonyInfo>
-            <eid>AE9XRcvREdM_/SohNwjyvyH</eid>
-            <harmonyDuration>2</harmonyDuration>
-            </Harmony>
-          <Chord>
-            <eid>Zie0WXit+vG_UQriXwDRtbM</eid>
-            <durationType>quarter</durationType>
-            <Note>
-              <eid>3HxOdOhR5BK_lTknIy+FDH</eid>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
-              <velocity>60</velocity>
-              </Note>
-            </Chord>
-          <Chord>
-            <eid>uiw4Me40HR_DKq5dagiSDL</eid>
-            <durationType>quarter</durationType>
-            <Note>
-              <eid>YwW/BJwBexF_wugjD1F51OP</eid>
-              <pitch>44</pitch>
-              <tpc>22</tpc>
-              <velocity>60</velocity>
-              </Note>
-            </Chord>
-          <Harmony>
-            <harmonyInfo>
-              <root>19</root>
-              <bass>22</bass>
-              </harmonyInfo>
-            <eid>bjjQvSTpdVE_bzJBTUMEfEP</eid>
-            <harmonyDuration>2</harmonyDuration>
-            </Harmony>
-          <Chord>
-            <eid>HHg6xyfOMkJ_82OrP9+gt8B</eid>
-            <durationType>quarter</durationType>
-            <Note>
-              <eid>/VqV0kxwj8L_w3UFnTHaM5L</eid>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
-              <velocity>60</velocity>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <eid>QTDKVoxYHID_iv34els8jXI</eid>
-            <durationType>quarter</durationType>
-            <Note>
-              <eid>Fo5emk0fEIF_b/uN5n+damP</eid>
-              <pitch>42</pitch>
-              <tpc>20</tpc>
-              <velocity>60</velocity>
-              </Note>
-            </Chord>
-          <Harmony>
-            <harmonyInfo>
-              <root>17</root>
-              <bass>20</bass>
-              </harmonyInfo>
-            <eid>hHjt4v+r9jL_5JF/9v+rpAN</eid>
-            <harmonyDuration>2</harmonyDuration>
-            </Harmony>
-          <Chord>
-            <eid>wcS6XuXuyoO_MiIf52jduDG</eid>
-            <durationType>quarter</durationType>
-            <Note>
-              <eid>j8w9rAnItQL_ylbHCrnS+5E</eid>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <velocity>60</velocity>
-              </Note>
-            </Chord>
-          <Chord>
-            <eid>DiiYwa3IHmJ_Dctu+e6GwbE</eid>
-            <durationType>quarter</durationType>
-            <Note>
-              <eid>XTLt2wU75fM_pI7/nynRMqM</eid>
-              <pitch>42</pitch>
-              <tpc>20</tpc>
-              <velocity>60</velocity>
-              </Note>
-            </Chord>
-          <Harmony>
-            <harmonyInfo>
-              <root>17</root>
-              <bass>20</bass>
-              </harmonyInfo>
-            <eid>jbEEHMh77tB_OH/uyORFF8H</eid>
-            <harmonyDuration>2</harmonyDuration>
-            </Harmony>
-          <Chord>
-            <eid>c5jBg+pzy/_wcqdd/nnuW</eid>
-            <durationType>quarter</durationType>
-            <Note>
-              <eid>yfXGXrL1fBP_9z6yCJcysTI</eid>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <velocity>60</velocity>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <eid>kvxxSo4bRXK_e0aJoJV4BVD</eid>
-            <durationType>quarter</durationType>
-            <Note>
-              <eid>8g9jPzCOFuJ_2GsHkYq3lUB</eid>
-              <pitch>40</pitch>
-              <tpc>18</tpc>
-              <velocity>60</velocity>
-              </Note>
-            </Chord>
-          <Harmony>
-            <harmonyInfo>
-              <name>7</name>
-              <root>18</root>
-              </harmonyInfo>
-            <eid>ix+mLS5OlOM_dLviKGanK/H</eid>
-            <harmonyDuration>2</harmonyDuration>
-            </Harmony>
-          <Chord>
-            <eid>kQjFx///5nD_flBuNdMRs7L</eid>
-            <durationType>quarter</durationType>
-            <Note>
-              <eid>8rKomyzXOqK_WaW2kht5lnM</eid>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              <velocity>60</velocity>
-              </Note>
-            </Chord>
-          <Chord>
-            <eid>qaLJf2Nt/H_STM0NfsEsXP</eid>
-            <durationType>quarter</durationType>
-            <Note>
-              <eid>jJ4zPSAU7RO_Om2FJOfu3BN</eid>
-              <pitch>44</pitch>
-              <tpc>22</tpc>
-              <velocity>60</velocity>
-              </Note>
-            </Chord>
-          <Harmony>
-            <harmonyInfo>
-              <name>7</name>
               <root>18</root>
               <bass>22</bass>
               </harmonyInfo>
-            <eid>X6YNbAwwApF_q7vJB6lVbqE</eid>
-            <harmonyDuration>2</harmonyDuration>
+            <eid>xbN1wwFBZnP_VQtwuSK+NrL</eid>
             </Harmony>
           <Chord>
-            <eid>NNwv1OgBogM_JhfnmrIlVO</eid>
+            <eid>yq8GG5ub9OH_37lFyR5LieP</eid>
             <durationType>quarter</durationType>
             <Note>
-              <eid>vfMMZWPhPTE_OG8RUP/ez7</eid>
+              <eid>jVc/Vb7Rym_+eVq6zB6CnM</eid>
+              <pitch>44</pitch>
+              <tpc>22</tpc>
+              </Note>
+            <Note>
+              <eid>k3Y8bqn2QyF_XBLdCfi0SwO</eid>
               <pitch>52</pitch>
               <tpc>18</tpc>
               <velocity>60</velocity>
@@ -3891,62 +3690,213 @@
         </Measure>
       <Measure>
         <voice>
-          <Dynamic>
-            <subtype>mp</subtype>
-            <velocity>64</velocity>
-            <eid>uoGvL35FHaG_UieUUY8d4vJ</eid>
-            </Dynamic>
+          <Harmony>
+            <harmonyInfo>
+              <root>19</root>
+              <bass>22</bass>
+              </harmonyInfo>
+            <eid>X0gYi7HgNlB_jmHAjRXFs5D</eid>
+            </Harmony>
           <Chord>
-            <eid>PrWcpZiJRNF_vwTpPomlcRE</eid>
+            <eid>+ExR4ZI9BlB_3/q1y+ArAzC</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>R55x1IvwpLL_LXEPxHwxHBF</eid>
+              <pitch>44</pitch>
+              <tpc>22</tpc>
+              </Note>
+            <Note>
+              <eid>AOnnIwe+sIF_k5tXn8Hca4C</eid>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <harmonyInfo>
+              <root>19</root>
+              </harmonyInfo>
+            <eid>S/uSkRSjixO_duxNw9t6otC</eid>
+            </Harmony>
+          <Chord>
+            <eid>VTMn1ufKA1J_7M8/0kAIRzF</eid>
             <durationType>quarter</durationType>
             <Note>
-              <eid>r39fEKP35dN_EPLomL/f6vI</eid>
-              <pitch>45</pitch>
-              <tpc>17</tpc>
+              <eid>A5N4SGqXZfD_B/3acaqIM9P</eid>
+              <pitch>47</pitch>
+              <tpc>19</tpc>
+              </Note>
+            <Note>
+              <eid>HdXUB4HJdpK_cJJPODgOxoC</eid>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <harmonyInfo>
+              <name>7</name>
+              <root>21</root>
+              <bass>22</bass>
+              </harmonyInfo>
+            <eid>p+krpqW62+_gXU4RTOOvbP</eid>
+            </Harmony>
+          <Chord>
+            <eid>AAkTs68sOxN_oH7UmkIaVBJ</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>KHdz+/q0tjC_X101Uqk8aJD</eid>
+              <pitch>44</pitch>
+              <tpc>22</tpc>
               <velocity>60</velocity>
+              </Note>
+            <Note>
+              <eid>jc6SZPlzhzD_VLYZSUVhOnM</eid>
+              <pitch>61</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <harmonyInfo>
+              <root>17</root>
+              <bass>20</bass>
+              </harmonyInfo>
+            <eid>F/kMFga6n4P_Xnaofby3YVL</eid>
+            </Harmony>
+          <Chord>
+            <eid>uFbh0aspp1_tJQZ697jo7H</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>vQV16YB8ZtM_huwyjJmSs9</eid>
+              <pitch>42</pitch>
+              <tpc>20</tpc>
+              <velocity>60</velocity>
+              </Note>
+            <Note>
+              <eid>aEUCswQ4SqF_lI/nhJcP+uL</eid>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
           <Harmony>
             <harmonyInfo>
               <root>17</root>
+              <bass>18</bass>
               </harmonyInfo>
-            <eid>AhDuWxeEmjL_DumdcwJjWsG</eid>
-            <harmonyDuration>2</harmonyDuration>
+            <eid>1tkqnFqPzBP_hBMASP2wb9M</eid>
             </Harmony>
           <Chord>
-            <eid>AJiEhFlBbLN_DE29XV+1/lI</eid>
+            <eid>6LERRPJgtOB_jXbHPwfJiQP</eid>
             <durationType>quarter</durationType>
             <Note>
-              <eid>Jkj3AWKLkgK_7ObMOXfK4uO</eid>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <velocity>60</velocity>
-              </Note>
-            </Chord>
-          <Chord>
-            <eid>+27yPUkya6E_qt3Z1LXx2MB</eid>
-            <durationType>quarter</durationType>
-            <Note>
-              <eid>3elKZCMkPAJ_k7vs4ECdDwD</eid>
+              <eid>JU/n4z3fmZO_V3qiLuUy7xJ</eid>
               <pitch>40</pitch>
               <tpc>18</tpc>
               <velocity>60</velocity>
               </Note>
+            <Note>
+              <eid>wunUVDrFe6E_HqeijiYERTG</eid>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
             </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <harmonyInfo>
+              <name>7</name>
+              <root>18</root>
+              </harmonyInfo>
+            <eid>TYg0jbJP6cN_8WtuDlXASBM</eid>
+            </Harmony>
+          <Chord>
+            <eid>zTQ/dg7lDJJ_x7vTvIp4RyM</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>8ym1nB3t0/J_OSGcNm8GMhO</eid>
+              <pitch>40</pitch>
+              <tpc>18</tpc>
+              <velocity>60</velocity>
+              </Note>
+            <Note>
+              <eid>kyRYV+hA2nB_n3DW/59he+P</eid>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <harmonyInfo>
+              <name>7</name>
+              <root>18</root>
+              <bass>22</bass>
+              </harmonyInfo>
+            <eid>1IM0/RDmM4N_wbZqbNSjJLE</eid>
+            </Harmony>
+          <Chord>
+            <eid>nPu2v+ZnoRK_dGszo5c0ipP</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>EbD87M2Zq/G_shr4oonQofE</eid>
+              <pitch>44</pitch>
+              <tpc>22</tpc>
+              </Note>
+            <Note>
+              <eid>8woCf27BjwJ_TNTVAH1QnvL</eid>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Harmony>
             <harmonyInfo>
               <root>17</root>
               </harmonyInfo>
-            <eid>/I+lacyXIjP_AF87DpXHeBD</eid>
-            <harmonyDuration>2</harmonyDuration>
+            <eid>Wg+Y/w55uCJ_IJUL6HVHxkL</eid>
             </Harmony>
           <Chord>
-            <eid>CKbimIUC+9F_NVoiVB9KqbF</eid>
-            <durationType>quarter</durationType>
+            <eid>LoWTcIltu/L_e+8CE+2S4DI</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
             <Note>
-              <eid>aufq9gnDYx_UEAooY+MoVD</eid>
+              <eid>zVV5tupVbfH_plbBwK29Eh</eid>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              </Note>
+            <Note>
+              <eid>UznHKb2AsGL_ATV3n+pqL7F</eid>
               <pitch>57</pitch>
               <tpc>17</tpc>
+              <velocity>60</velocity>
+              </Note>
+            </Chord>
+          <Harmony>
+            <harmonyInfo>
+              <root>18</root>
+              <bass>22</bass>
+              </harmonyInfo>
+            <eid>zxsGDaDXsEF_3Ts32XzCGgN</eid>
+            </Harmony>
+          <Chord>
+            <eid>Ft7ZS3cPS6C_kXimYHfNkKM</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>TjOcZNGFnM_mtm7ZXhbkAB</eid>
+              <pitch>44</pitch>
+              <tpc>22</tpc>
+              </Note>
+            <Note>
+              <eid>eW3gCK2dwGH_4AfB/GA4mgN</eid>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
               <velocity>60</velocity>
               </Note>
             </Chord>
@@ -3954,120 +3904,122 @@
         </Measure>
       <Measure>
         <voice>
-          <Chord>
-            <eid>g6XaB6rxR7C_nr7tB9kL1rP</eid>
-            <durationType>quarter</durationType>
-            <Note>
-              <eid>+rePOAMoRfI_rGZ8KuH7WaL</eid>
-              <pitch>44</pitch>
-              <tpc>22</tpc>
-              <velocity>60</velocity>
-              </Note>
-            </Chord>
           <Harmony>
             <harmonyInfo>
               <root>19</root>
               <bass>22</bass>
               </harmonyInfo>
-            <eid>ltqFhoAHRaD_PZkq5IarhpF</eid>
-            <harmonyDuration>2</harmonyDuration>
+            <eid>XxWy9xxvgaC_m9KrHwws6FM</eid>
             </Harmony>
           <Chord>
-            <eid>whecYwxNOdK_kA277oI4taD</eid>
-            <durationType>quarter</durationType>
+            <eid>uYwdKC3BlJJ_S0K0iBnY0MF</eid>
+            <durationType>half</durationType>
             <Note>
-              <eid>jQJaF2bQTGB_tasllBeELeO</eid>
+              <eid>3NVlo51vZFD_ubkGBJgg7TF</eid>
+              <pitch>44</pitch>
+              <tpc>22</tpc>
+              </Note>
+            <Note>
+              <eid>WP3uPCKocnF_xx1emxdrrlP</eid>
               <pitch>59</pitch>
               <tpc>19</tpc>
-              <velocity>60</velocity>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyInfo>
+              <name>m</name>
+              <root>20</root>
+              <bass>21</bass>
+              </harmonyInfo>
+            <eid>0Z4gtmoz5hL_BEAF5JjY2jF</eid>
+            </Harmony>
           <Chord>
-            <eid>Gx5xzsOsbhF_n8mX6ZlHEHL</eid>
+            <eid>BNPAR7dXm5F_FVh9pX55ezG</eid>
             <durationType>quarter</durationType>
             <Note>
-              <eid>6Z5spFtUTeM_w0hTRGQg2HH</eid>
+              <eid>T3vba3CGEMJ_sneDRV4pwDM</eid>
               <pitch>49</pitch>
               <tpc>21</tpc>
-              <velocity>60</velocity>
+              </Note>
+            <Note>
+              <eid>5RNgFY/hfLP_djZHAHa/WII</eid>
+              <pitch>54</pitch>
+              <tpc>20</tpc>
               </Note>
             </Chord>
           <Harmony>
             <harmonyInfo>
-              <root>19</root>
-              <bass>22</bass>
+              <name>7</name>
+              <root>21</root>
+              <bass>25</bass>
               </harmonyInfo>
-            <eid>7vU8/d+9u1J_Vjc5xxTaj6D</eid>
-            <harmonyDuration>2</harmonyDuration>
+            <eid>SQCwXvR4BGM_IEarkoezmVE</eid>
             </Harmony>
           <Chord>
-            <eid>/26oAvt4H7H_tYnXTV5bReE</eid>
+            <eid>fhmyXV0x4YM_Q242MLOmFzE</eid>
             <durationType>quarter</durationType>
             <Note>
-              <eid>cjEOsITf/ZH_jzF56gCj+9L</eid>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
+              <eid>ttcs69/vp6M_zPTw3pxgsdL</eid>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                <eid>8zxBjLifTzF_wnSj4ZhwUII</eid>
+                </Accidental>
+              <pitch>41</pitch>
+              <tpc>25</tpc>
               <velocity>60</velocity>
+              </Note>
+            <Note>
+              <eid>KaLwmgSFf4P_fWeTYccApIM</eid>
+              <pitch>61</pitch>
+              <tpc>21</tpc>
               </Note>
             </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Chord>
-            <eid>KX0llmp3GwH_9DapaSmM9bN</eid>
-            <durationType>quarter</durationType>
-            <Note>
-              <eid>Qg2xEODr2XI_c9VLHjpEoEF</eid>
-              <pitch>42</pitch>
-              <tpc>20</tpc>
-              <velocity>60</velocity>
-              </Note>
-            </Chord>
           <Harmony>
             <harmonyInfo>
               <root>17</root>
               <bass>20</bass>
               </harmonyInfo>
-            <eid>K1HOQ+5x5sM_w/YMkplmeEC</eid>
-            <harmonyDuration>2</harmonyDuration>
+            <eid>PtJ7KhDPc4I_4SWF3wtzWQN</eid>
             </Harmony>
           <Chord>
-            <eid>GwxIri7f0aO_ZzojwDXJQAB</eid>
-            <durationType>quarter</durationType>
+            <eid>+WaV2LJ/yML_Pu+G6yeLDHK</eid>
+            <durationType>half</durationType>
             <Note>
-              <eid>g6e8AiB+hiN_M7F7iC9Mxl</eid>
-              <pitch>54</pitch>
-              <tpc>20</tpc>
-              <velocity>60</velocity>
-              </Note>
-            </Chord>
-          <Chord>
-            <eid>QpUuEF5NxVH_85lPIDcoW2J</eid>
-            <durationType>quarter</durationType>
-            <Note>
-              <eid>WTgCuj14b5_ju/y0c2UMsM</eid>
+              <eid>dUtP7jZgRxK_K+EEagFe3wK</eid>
               <pitch>42</pitch>
               <tpc>20</tpc>
               <velocity>60</velocity>
               </Note>
+            <Note>
+              <eid>t7SzogakuqB_S+LGjpe6o2N</eid>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
             </Chord>
           <Harmony>
             <harmonyInfo>
-              <root>17</root>
-              <bass>20</bass>
+              <name>7</name>
+              <root>22</root>
               </harmonyInfo>
-            <eid>WC1M8pnnu5_AvA6mrY5HgD</eid>
-            <harmonyDuration>2</harmonyDuration>
+            <eid>P9QR5I1+xTN_nRpE5GSSEbJ</eid>
             </Harmony>
           <Chord>
-            <eid>8iUkY8IqAzM_Yqcux+tyKSE</eid>
-            <durationType>quarter</durationType>
+            <eid>Pb2XRizW6lN_PLj0HFLr4AF</eid>
+            <durationType>half</durationType>
             <Note>
-              <eid>kNLqUn8apcO_ENSFL3Noy1P</eid>
-              <pitch>54</pitch>
-              <tpc>20</tpc>
+              <eid>UuMs3FLXv6N_pBMI5jJcHbB</eid>
+              <pitch>44</pitch>
+              <tpc>22</tpc>
               <velocity>60</velocity>
+              </Note>
+            <Note>
+              <eid>TWb1wfhkdbE_PuZCk4okbDI</eid>
+              <pitch>56</pitch>
+              <tpc>22</tpc>
               </Note>
             </Chord>
           </voice>
@@ -4078,35 +4030,45 @@
             <harmonyInfo>
               <name>m</name>
               <root>21</root>
+              <bass>25</bass>
               </harmonyInfo>
-            <eid>bYeTDKHzrnG_KFIeONgl7W</eid>
-            <harmonyDuration>2</harmonyDuration>
+            <eid>OLJB2UFMbzC_XubzOCxJhRM</eid>
             </Harmony>
           <Chord>
-            <eid>A0vftIwklUE_YJoHkR//EuJ</eid>
+            <eid>LD+l7DH/4cJ_jafAr5ho6fM</eid>
             <durationType>half</durationType>
             <Note>
-              <eid>QbNnYamMOrI_XWlTCgWPbK</eid>
-              <pitch>49</pitch>
-              <tpc>21</tpc>
+              <eid>ggkvvQL7R4_JVcjlWqx+sI</eid>
+              <pitch>40</pitch>
+              <tpc>18</tpc>
               <velocity>60</velocity>
+              </Note>
+            <Note>
+              <eid>rcq3qrY29aO_x/Lo6H0RxNO</eid>
+              <pitch>61</pitch>
+              <tpc>21</tpc>
               </Note>
             </Chord>
           <Harmony>
             <harmonyInfo>
               <root>22</root>
               </harmonyInfo>
-            <eid>2N/oZjRNmCO_xp/jK/t22oG</eid>
+            <eid>tmoo40vhAQH_TqjC7tJjMWF</eid>
             <harmonyDuration>2</harmonyDuration>
             </Harmony>
           <Chord>
-            <eid>TVsPacgJix_OZKVXweZXpN</eid>
+            <eid>9YxXUKBjgbB_tfcQRTkEUD</eid>
             <durationType>half</durationType>
             <Note>
-              <eid>zCu5c7/ZyWG_tDS2X9/dGTJ</eid>
+              <eid>wKhIuX/4RRM_SJ8JI5u4BwL</eid>
               <pitch>44</pitch>
               <tpc>22</tpc>
               <velocity>60</velocity>
+              </Note>
+            <Note>
+              <eid>Wg0pbPFRuDD_q8ZYlvc/f2M</eid>
+              <pitch>56</pitch>
+              <tpc>22</tpc>
               </Note>
             </Chord>
           </voice>
@@ -9348,19 +9310,48 @@
         </Measure>
       <Measure>
         <voice>
+          <Chord>
+            <eid>gCeC39BV4RC_+HQFt+a0h7H</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>Whitr/0L+pK_TimQ5X4dMXL</eid>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
           <Rest>
-            <eid>yNa773kyREE_NpjAQ8PF/aJ</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <eid>VsS4JJO3ddJ_skMoBIK7q5O</eid>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Chord>
+            <eid>F8dl9HX5kVK_135hSzyJeTC</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>LvC3rpXg1PJ_pkBHt1zxWJ</eid>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>g23CzK2p3eJ_j5X6LFF73UE</eid>
+            <durationType>quarter</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <eid>dCO4KBa0ljN_9J+yIbTcYR</eid>
-            <dots>1</dots>
+          <Chord>
+            <eid>SB7L5S/SsQD_sMmGt7rCQvJ</eid>
             <durationType>half</durationType>
+            <Note>
+              <eid>xxGHuPdt37H_WyvdPWeD6GJ</eid>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>3qry7jnU46_F/dq55uGqTM</eid>
+            <durationType>quarter</durationType>
             </Rest>
           <Chord>
             <eid>U+DSkcJRw4B_r6c2/BAWm1D</eid>
